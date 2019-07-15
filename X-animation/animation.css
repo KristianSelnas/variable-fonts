@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Avenir Next Variable";
+    src: url("../font/AvenirNext_Variable.ttf") format("truetype");
+}
+
+body {
+    font-family: "Avenir Next Variable";
+}
+
+p {
+  animation-name: 'wght';
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes wght {
+	from {
+		font-variation-settings: "wght" 1;
+	}
+	to {
+		font-variation-settings: "wght" 1.98;
+	}
+}

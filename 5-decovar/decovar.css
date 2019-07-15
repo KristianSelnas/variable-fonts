@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Decovar";
+    src: url("../font/DecovarAlpha-VF.ttf") format("truetype");
+}
+
+body {
+    font-family: "Decovar";
+
+    font-variation-settings:
+        "BLDA" 0, /* Inline */
+        "BLDB" 0, /* Worm */
+        "SKLA" 0, /* Inline Skeleton */
+        "SKLB" 0, /* Worm Skeleton */
+        "SKLD" 1000, /* Stripes */
+        "TRMA" 0, /* Rounded */
+        "TRMB" 0, /* Flared */
+        "TRMC" 1000, /* Rounded Slab */
+        "TRMD" 1000, /* Sheared */
+        "TRME" 0, /* Bifurcated */
+        "TRMF" 0, /* Open Inline Terminal */
+        "TRMG" 0, /* Slab */
+        "TRMK" 0, /* Inline Terminal */
+        "TRML" 0, /* Worm Terminal */
+        "WMX2" 0 /* Weight */;
+
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Avenir Next Variable";
+    src: url("../font/AvenirNext_Variable.ttf") format("truetype");
+}
+
+body {
+    font-family: "Avenir Next Variable";
+}
+
+.weight {
+    font-weight: 510;
+}
+
+.stretch {
+    font-stretch: 80%;
+}
